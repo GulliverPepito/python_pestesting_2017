@@ -1,0 +1,19 @@
+// The website(s) you need to monitor.
+// Don't forget http:// or https://
+targets: [
+  https://google.es
+]
+
+// Those websites will be ping to check if your connection or the website is down.
+// Don't forget http:// or https://
+references: [
+  https://google.es
+]
+
+// Timespan between each check in seconds for each website.
+timespans: [
+  1
+]
+
+// Other possibilities :
+//   SMTP Conf, Accepted HTTPCode, Output database
